@@ -9,11 +9,10 @@
 .content-left {
     width: 30%;
     /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100%;
-    min-height: 10px;
+    height: calc(100vh - 200px);
+    min-height: 100px;
     background: #565555;
-    position: absolute;
-    left: 0;
+    float: left;
 }
 
 
@@ -22,11 +21,9 @@
 .content-mid {
     width: 70%;
     /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100%;
+    height: calc(100vh - 200px);
     background: #B0B0B0;
-    position: absolute;
-    right: 0;
-    top: 100px;
+    float: right;
 }
 
 /* I would suggest using position to get this container to the bottom of the screen  */
@@ -36,5 +33,5 @@
     height: 100px;
     background: #3A3A3A;
     position: fixed;
-    bottom: 0
+    bottom: 0;
 }
